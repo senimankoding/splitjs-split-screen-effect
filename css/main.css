@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100vh;
+}
+main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.side-a {
+	width: 100%;
+	height: 100vh;
+	background-image: url('../img/pantai-1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.side-b {
+	width: 100%;
+	height: 100vh;
+	background-image: url('../img/pantai-1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	filter: grayscale(100%);
+}
+
+.gutter {
+	cursor: w-resize;
+	height: 100%;
+	background: grey;
+}
